@@ -15,13 +15,10 @@ if ('serviceWorker' in navigator) {
 const CACHE_NAME = 'arcadequest-cache-v1';
 const cacheUrls = [
     '/index.html',
-    '/styles.css',
-    '/script.js',
-    'discord.png',
-    'website.png',
-    '/policy.html',
-    '/terms.html',
-  
+    'discord.png
+    
+   
+    
 ];
 
 self.addEventListener('install', (event) => {
